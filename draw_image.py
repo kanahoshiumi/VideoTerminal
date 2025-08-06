@@ -25,4 +25,4 @@ def draw_image(image: MatLike):
 
     ansi = ncadd(ncadd(ncadd(ncadd(ncadd(ncadd(start, r), ";"), g), ";"), b), end)
 
-    print("\n".join(["".join(row) for row in ansi]))
+    print("\n".join(["".join(row) for row in ansi]), end="")
